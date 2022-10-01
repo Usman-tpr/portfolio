@@ -1,0 +1,174 @@
+.sidebarportion {
+    display: flex;
+
+    background-color: rgb(51, 50, 50);
+
+}
+
+
+.sidebar-section {
+    height: 100vh;
+    width: 80px;
+    position: fixed;
+    transition-duration: 1s;
+    background-color: rgb(51, 50, 50);
+
+
+
+
+}
+
+.extra {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    overflow: hidden;
+}
+
+.ii {
+    transition-duration: 15s;
+    color: white;
+}
+
+.sidebar-expand {
+
+
+    width: 200px;
+    background-color: rgb(51, 50, 50);
+    transition-duration: 1s;
+
+}
+
+.iconec {
+    color: white;
+    display: flex;
+    justify-content: right;
+
+
+}
+
+.profile img {
+    border-radius: 90%;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    display: flex;
+
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.navitems ul li {
+    list-style: none;
+    color: white;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.navitems ul li svg {
+    margin-right: 10px;
+}
+
+.lihead {
+    padding-top: 50px;
+}
+
+.colitems ul li {
+    margin-top: 50px;
+
+    list-style: none;
+}
+
+.header {
+
+    height: 300px;
+}
+
+.header1 {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.header-content {
+    padding-top: 100px;
+    margin-left: 200px;
+    color: white;
+
+}
+
+.header-content h3 {
+    color: yellow;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+
+
+}
+
+.hire,
+.get {
+    background-color: rgb(243, 119, 119);
+    width: 150px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 90px;
+    text-align: center;
+}
+
+.hire:hover {
+    background-color: white;
+    color: black;
+    width: 200px;
+    border-bottom: 90px;
+    text-align: center;
+    transition-duration: 1s;
+}
+
+.get a {
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+
+.get:hover {
+    background-color: white;
+    color: black;
+    width: 200px;
+    border-bottom: 90px;
+    text-align: center;
+    transition-duration: 1s;
+}
+
+.about {
+    margin-top: 50px;
+    box-shadow: 7px 10px 5px -3px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: 7px 10px 5px -3px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 7px 10px 5px -3px rgba(0, 0, 0, 0.53);
+
+}
+
+.image img {
+    margin-top: 40px;
+
+    height: 200px;
+    width: 200px;
+    border-radius: 190px;
+}
+
+.title {
+    text-align: center;
+}
+
+.line {
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: red;
+    margin: 1px auto;
+}
+
+.text p {
+    margin-top: 5px;
+}
